@@ -1,2 +1,5 @@
+.npmgitignore
+.env
+.env.*
+!.env.example
 node_modules/
-.npm
