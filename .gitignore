@@ -1,4 +1,4 @@
-.npmgitignore
+.npm
 .env
 .env.*
 !.env.example
