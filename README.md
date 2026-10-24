@@ -28,13 +28,21 @@ Make sure you have the following installed:
 Install MSSP globally from npm:
 
 ```bash
+<<<<<<< HEAD
 npm install -g @product.engineer.sushant/mssp
+=======
+npm install -g "@product.engineer.sushant/mssp"
+>>>>>>> a0a045daf2345e526da034f6449491ed8889605a
 ```
 
 Alternatively, run it without a global installation:
 
 ```bash
+<<<<<<< HEAD
 npx @product.engineer.sushant/mssp
+=======
+npx "@product.engineer.sushant/mssp"
+>>>>>>> a0a045daf2345e526da034f6449491ed8889605a
 ```
 
 > **Note:** The package must be published to npm before other users can install it.
