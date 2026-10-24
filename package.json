@@ -1,8 +1,19 @@
-
 {
   "name": "@product.engineer.sushant/mssp",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A command-line tool to automate the creation of TypeScript-based microservices in a Node.js microservice architecture. MSSP generates boilerplate files, configures environment variables and Dockerfiles, updates gateway configuration, and installs dependencies automatically.",
+  "keywords": [],
+  "homepage": "https://github.com/Product-Engineer-Sushant/Micro_Services_Pipeline#readme",
+  "bugs": {
+    "url": "https://github.com/Product-Engineer-Sushant/Micro_Services_Pipeline/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Product-Engineer-Sushant/Micro_Services_Pipeline.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
   "bin": {
@@ -13,10 +24,6 @@
     "build": "tsc",
     "start": "node dist/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "chalk": "^6.0.1",
     "cors": "^2.8.6",
